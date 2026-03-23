@@ -1,1 +1,1 @@
-# databricks_trial
+# databricks-practice
