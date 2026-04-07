@@ -70,3 +70,7 @@ def clean_mercado(df_mercado):
          .otherwise(F.col("currency"))
     )
     return df_mercado
+
+def clean_sku(df_sku):
+    df_sku = trim_columns(df_sku, df_sku.columns)
+    return df_sku
